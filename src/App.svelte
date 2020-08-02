@@ -1,5 +1,9 @@
-<script>
-	export let name;
+<script lang="ts">
+	export let name: string;
+  
+  import { getText } from "./Foo";
+  
+  console.log(getText());
 </script>
 
 <main>
